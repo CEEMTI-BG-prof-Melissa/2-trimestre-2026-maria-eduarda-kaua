@@ -1,0 +1,74 @@
+ a{
+color: green;
+}
+
+a:hover{
+  color: pink;
+}
+
+a:visited{
+    color: red;
+}
+
+a:focus{
+    border:1px solid black;
+}
+
+li:first-child{
+    font-weight: bolder;
+}
+
+li:last-child{
+    color: gray;
+}
+
+a:nth-child(odd){
+    background-color: brown;
+}
+
+a:nth-child(even){
+    background-color: yellow;
+}
+
+*:required{
+    border: 2px solid purple ;
+}
+
+input:focus{
+    box-shadow: 1px 2px black;
+}
+ 
+input[type="email"]:valid{
+    color: green;
+}
+
+input[type="email"]:invalid{
+    color: red;
+}
+
+label:has(input[type="checkbox"]:checked){
+    color: lightgreen;
+}
+
+
+
+ul li:not(:first-child){
+    color: pink;
+}
+
+:is(h1, h2, h3){
+    color: lightblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+    
